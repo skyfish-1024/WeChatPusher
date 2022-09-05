@@ -1,0 +1,22 @@
+美好的一天开始啦
+早安，{{lover.DATA}}!
+
+地区:{{location.DATA}}
+天气:{{weather.DATA}}
+最高温:{{max_temperature.DATA}}
+最低温:{{min_temperature.DATA}}
+日出:{{sun_rise.DATA}}
+日落:{{sun_set.DATA}}
+月相:{{moon_phase.DATA}}
+相对湿度:{{humidity.DATA}}%
+紫外线强度:{{uv_index.DATA}}
+今天我们相识的第{{acquaintance_day.DATA}}天
+小呆瓜的生日:{{birthday.DATA}}
+{{morning_phase.DATA}}
+{{time.DATA}}   {{week_day.DATA}}
+
+
+推送结果
+
+这是第{{count.DATA}}次推送结果:{{state.DATA}}
+{{time.DATA}}   {{day.DATA}}
