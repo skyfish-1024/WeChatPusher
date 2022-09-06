@@ -1,6 +1,7 @@
 package task
 
 import (
+	"WeChatPusher/config"
 	"github.com/robfig/cron"
 	"log"
 )
@@ -8,7 +9,7 @@ import (
 func Task() {
 	i := 0
 	c := cron.New()
-	spec := "*/10 * * * * ?"
+	spec := config.SEND_TIME
 	c.AddFunc(spec, func() {
 		i++
 		count := 0

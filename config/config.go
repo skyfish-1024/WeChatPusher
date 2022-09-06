@@ -27,17 +27,19 @@ const (
 	TEMPLATE_Id_TO_ME = "推送结果给你自己的模板id"
 )
 
-//和风天气
+//和风天气   https://www.qweather.com/
 const (
 	LOCATION    = "渝北区"          //自行更改
 	LOCATION_ID = "106.59,29.67" //自行更改
 	WEATHER_KEY = "和风天气的接口key"
 )
 
-//早安心语
+//早安心语  https://www.tianapi.com/
 const (
 	MORNING_KEY = "天行数据的用户key"
 )
+
+const SEND_TIME = "*/10 * * * * ?"
 
 //颜色
 const (
